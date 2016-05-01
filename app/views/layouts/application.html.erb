@@ -2,40 +2,34 @@
 <html>
 <head>
   <title>Rainforest</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home", '#' %></li>
-            <li><%= link_to "Help", '#' %></li>
-            <li><%= link_to "About", '#' %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <footer class="footer">
-      <small>
-        <a href=""></a>
-        <a href=""></a>
-      </small>
+    <div class= "container">
       <nav>
-        <ul>
-
-          <li><%= link_to "Contact", '#' %></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Sign up", 'signup' %></a></li>
+          <li><%= link_to "Home", 'login' %></li>
+          <li><%= link_to "Help", '#' %></li>
+          <li><%= link_to "About", '#' %></li>
 
         </ul>
-      </nav>
-    </footer>
+        <ul class="nav navbar-nav navbar-left">
+          <% if current_user %>
+          <li><%= current_user.email %></li>
+          <li><%= link_to "Log out", logout_path, method: "delete" %></li>
+          <% else %>
+          <!-- <li><%= link_to "Log in", 'login' %></a></li> -->
 
-  <div class="container">
-    <%= yield %>
+        </ul>
+          <% end %>
+      </nav>
   </div>
+</header>
+<%= yield %>
 
 </body>
 </html>
