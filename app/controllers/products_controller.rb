@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   before_action :require_user, #only: [#:show, :edit, :update, :destroy]
+  before_action :require_admin, only: [:update, :destroy, :new]
   # :set_product (this here before we put require_user)
   # GET /products
   # GET /products.json
