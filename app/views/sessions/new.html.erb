@@ -1,9 +1,11 @@
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <div class="login">
 	<div class="container">
-		<div class="center jumbotron">
 
-      <h1>Welcome to Company Name</h1>
-      <h2>Blurb about company</h2>
+		<div class="center">
+
+      <h1>Kickin' Knickers</h1>
+      <h2>Because it's fun to dress animals like humans</h2>
 
       <%= form_for(:session, url: login_path) do |f| %>
 			  <%= f.email_field :email, :placeholder => "Email" %>
@@ -11,8 +13,9 @@
 			  <%= f.submit "Log in", class: "btn-submit" %>
 			<% end %>
 
-    
+			<h4> Log in to shop the boutique</h4>
+
     </div>
-    <%= link_to image_tag("http://oddstuffmagazine.com/wp-content/uploads/2014/04/4_13.jpg", alt: "Animal Logo")%>
+
 	</div>
 </div>
