@@ -2,7 +2,7 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @product.name %>
+    <%= @product.name %>
 </p>
 
 <p>
@@ -26,6 +26,8 @@
 
 <h3>New Review</h3>
 <%= render 'reviews/form' %>
-
+<%if current_user.admin?%>
 <%= link_to 'Edit', edit_product_path(@product) %> |
+<%end%>
+
 <%= link_to 'Back', products_path %>

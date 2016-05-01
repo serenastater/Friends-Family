@@ -1,10 +1,15 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :require_admin, only: [:update, :destroy, :new]
+  # before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
   def index
+    if current_user.admin?
     @users = User.all
+    else
+    redirect_to '/'
+    end
   end
 
   # GET /users/1
@@ -38,7 +43,7 @@ class UsersController < ApplicationController
       redirect_to '/signup'
         # format.html { render :new }
         # format.json { render json: @user.errors, status: :unprocessable_entity }
-      
+
     end
   end
 
