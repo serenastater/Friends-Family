@@ -7,21 +7,35 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="nav pull-right">
-    <% if current_user %>
-      <ul>
-        <li><%= current_user.email %></li>
-        <li><%= link_to "Log out", logout_path, method: "delete" %></li>
-      </ul>
-    <% else %>
-      <ul>
-        <!-- <li><%= link_to "Login", 'login' %></a></li> -->
-        <li><%= link_to "Signup", 'signup' %></a></li>
-      </ul>
-    <% end %>
-  </div>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Home", '#' %></li>
+            <li><%= link_to "Help", '#' %></li>
+            <li><%= link_to "About", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<%= yield %>
+    <footer class="footer">
+      <small>
+        <a href=""></a>
+        <a href=""></a>
+      </small>
+      <nav>
+        <ul>
+
+          <li><%= link_to "Contact", '#' %></li>
+
+        </ul>
+      </nav>
+    </footer>
+
+  <div class="container">
+    <%= yield %>
+  </div>
 
 </body>
 </html>

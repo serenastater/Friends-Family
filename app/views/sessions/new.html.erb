@@ -1,15 +1,27 @@
 <div class="login">
 	<div class="container">
-		<div class="form">
+		<div class="center jumbotron">
 
-      <h1>Log in</h1>
+      <h1>Welcome to Company Name</h1>
+      <h2>Blurb about company</h2>
 
-			<%= form_for(:session, url: login_path) do |f| %>
+      <%= form_for(:session, url: login_path) do |f| %>
 			  <%= f.email_field :email, :placeholder => "Email" %>
 			  <%= f.password_field :password, :placeholder => "Password" %>
 			  <%= f.submit "Log in", class: "btn-submit" %>
 			<% end %>
 
+      <% if current_user %>
+        <ul>
+          <li><%= current_user.email %></li>
+          <li><%= link_to "Log out", logout_path, method: "delete" %></li>
+        </ul>
+      <% else %>
+        <ul>
+          <li><%= link_to "Signup here!", 'signup' %></a></li>
+        </ul>
+      <% end %>
     </div>
+    <%= link_to image_tag("http://oddstuffmagazine.com/wp-content/uploads/2014/04/4_13.jpg", alt: "Animal Logo")%>
 	</div>
 </div>
