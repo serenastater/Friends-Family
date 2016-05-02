@@ -2,3 +2,13 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+h1 {
+  margin: auto, 25em;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  opacity: 0.9;
+  font-color: black;
+  flex-grow: 2;
+  font-family: 'Lobster';
+
+}
