@@ -12,14 +12,14 @@ serena = User.create(first_name: "Serena", last_name: "Stater", email: "serena@g
 
 dracula = User.create(first_name: "Vlad", last_name: "Dracula", email: "vlad@gmail.com", password: "qwerty")
 
-racoon = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://imgur.com/wm8NL2b", price_in_cents: "2999")
+racoon = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://i.imgur.com/wm8NL2b.jpg", price_in_cents: "2999")
 
-cat1 = Product.create(name: "Lobster", description: "Dress your cat like a lobster!", image: "http://imgur.com/pTHB6A1", price_in_cents: "2999")
+cat1 = Product.create(name: "Lobster", description: "Dress your cat like a lobster!", image: "http://i.imgur.com/pTHB6A1.jpg", price_in_cents: "2999")
 
-cat2 = Product.create(name: "Sushi", description: "Dress your cat like a sushi!", image: "http://imgur.com/IohSsS3", price_in_cents: "2999")
+cat2 = Product.create(name: "Sushi", description: "Dress your cat like a sushi!", image: "http://i.imgur.com/IohSsS3.jpg", price_in_cents: "2999")
 
-cat3 = Product.create(name: "Overall", description: "Dress your cat like in an overall!", image: "http://imgur.com/TWGHeYz", price_in_cents: "2999")
+cat3 = Product.create(name: "Overall", description: "Dress your cat like in an overall!", image: "http://i.imgur.com/TWGHeYz.jpg", price_in_cents: "2999")
 
-duck = Product.create(name: "Ugly swan no more", description: "Dress up that duck like a princess", image: "http://imgur.com/6ZFtBFN", price_in_cents: "3999")
+duck = Product.create(name: "Ugly swan no more", description: "Dress up that duck like a princess", image: "http://i.imgur.com/6ZFtBFN.jpg", price_in_cents: "3999")
 
-hedgehog = Product.create(name: "Dracula's only friend", description: "Dress your hedgehog like the Count's partner in crime", image: "http://imgur.com/UsDv6WX", price_in_cents: "4999")
+hedgehog = Product.create(name: "Dracula's only friend", description: "Dress your hedgehog like the Count's partner in crime", image: "http://i.imgur.com/UsDv6WX.jpg", price_in_cents: "4999")
