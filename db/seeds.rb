@@ -16,7 +16,13 @@ dracula = User.create(first_name: "Vlad", last_name: "Dracula", email: "vlad@gma
 
 cat1 = Product.create(name: "Lobster", description: "Dress your cat like a lobster!", image: "http://i.imgur.com/pTHB6A1.jpg", price_in_cents: "1999")
 
+hedge1 = Product.create(name: "Lobster", description: "Dress your cat like a lobster!", image: "http://i.imgur.com/UsDv6WX.jpg", price_in_cents: "1999")
+
 cat2 = Product.create(name: "Sushi", description: "Dress your cat like a sushi!", image: "http://i.imgur.com/IohSsS3.jpg", price_in_cents: "1999")
+
+snake1 = Product.create(name: "Sushi", description: "Dress your cat like a sushi!", image: "http://i.imgur.com/bEoKTqN.jpg", price_in_cents: "1999")
+
+const_dog = Product.create(name: "Sushi", description: "Dress your cat like a sushi!", image: "http://i.imgur.com/9Edn2J1.jpg", price_in_cents: "1999")
 
 aardvark = Product.create(name: "Sweater", description: "Not just for school teachers!", image: "http://i.imgur.com/Hj1SQDE.jpg", price_in_cents: "1999")
 
@@ -32,6 +38,8 @@ goat = Product.create(name: "Goat Pajamas", description: "OMG!", image: "http://
 
 dog2 = Product.create(name: "Unicorn princess", description: "Bring the magic home", image: "http://i.imgur.com/A9HjUsJ.jpg", price_in_cents: "1999")
 
+kangaroo = Product.create(name: "Unicorn princess", description: "Bring the magic home", image: "http://i.imgur.com/7PK27zd.jpg", price_in_cents: "1999")
+
 dog3 = Product.create(name: "Out on the town", description: "Keep it classy!", image: "http://i.imgur.com/g3Hv2lv.jpg", price_in_cents: "2999")
 
 rooster = Product.create(name: "Ruby Red Boots", description: "Watch out for the mud!", image: "http://i.imgur.com/kwMyEro.jpg", price_in_cents: "2999")
@@ -39,3 +47,5 @@ rooster = Product.create(name: "Ruby Red Boots", description: "Watch out for the
 snake = Product.create(name: "Party Hat", description: "Party like it's 1999", image: "http://i.imgur.com/QVJ9RIU.jpg", price_in_cents: "1099")
 
 racoon = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://i.imgur.com/wm8NL2b.jpg", price_in_cents: "1999")
+
+horse = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://i.imgur.com/LnEcPub.jpg", price_in_cents: "1999")
