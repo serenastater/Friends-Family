@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<h1>Reviews</h1>
 <p class="images">
     <img src="<%= @product.image %>"/>
 </p>
@@ -19,18 +19,16 @@
   $<%= @product.formatted_price %>
 </p> -->
 
-<h3 class="review_title">Reviews</h3>
+
 <% @product.reviews.each do |review| %>
   <p class="review">
     <%= review.comment %>
-  <br>
-  <br>
-  <br>
-  Added on: <%= review.created_at %>
+  <br/><br/><br/>
+  <small>Added on: <%= review.created_at %></small>
   </p>
 <% end %>
 
-<h3 class="review_title">New Review</h3>
+<!-- <h3 class="review_title">New Review</h3> -->
   <%= render 'reviews/form' %>
   <%if current_user.admin?%>
   <%= link_to 'Edit', edit_product_path(@product) %> |

@@ -17,7 +17,7 @@
   <tbody>
     <% @products.each do |product| %>
 
-      <tr><a href="<%=product.id%>"><img src="<%= product.image %>"/></a>
+      <tr><a href="products/<%=product.id%>"><img src="<%= product.image %>"/></a>
         <!-- <tr><%= link_to 'Reviews', product %></tr> -->
         <!-- <td><%= product.name %></td>
         <td><%= product.description %></td>

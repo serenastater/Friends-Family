@@ -48,23 +48,23 @@ snake = Product.create(name: "Party Hat", description: "Party like it's 1999", i
 
 racoon = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://i.imgur.com/wm8NL2b.jpg", price_in_cents: "1999")
 
-review1 = Review.create(comment: "Hilarious! Amazing lobster costume!", product_id: "1")
+review1 = Review.create(comment: "How do you turn on the bubbles?", product_id: "1")
 
-review2 = Review.create(comment: "I love this sushi costume!", product_id: "2")
+review2 = Review.create(comment: "Is it Halloween yet?", product_id: "2")
 
-review3 = Review.create(comment: "Beautiful!!", product_id: "3")
+review3 = Review.create(comment: "Miso angry", product_id: "3")
 
-review4 = Review.create(comment: "I wish my overalls were this awesome!", product_id: "4")
+review4 = Review.create(comment: "Let's not make the Easter bunny creepier", product_id: "4")
 
-review5 = Review.create(comment: "Worthy if being a Disney princess!", product_id: "5")
+review5 = Review.create(comment: "Put that lazy hound to work!", product_id: "5")
 
-review6 = Review.create(comment: "SuperHamster!", product_id: "6")
+review6 = Review.create(comment: "What even is that?", product_id: "6")
 
-review7 = Review.create(comment: "Ready for the winter!", product_id: "7")
+review7 = Review.create(comment: "How did it get so fat?", product_id: "7")
 
-review8 = Review.create(comment: "Best pijama ever!", product_id: "8")
+review8 = Review.create(comment: "They're the next Disney princesses!", product_id: "8")
 
-review9 = Review.create(comment: "Who said unicorns don't exist!?", product_id: "9")
+review9 = Review.create(comment: "Umm.. super... hamster?", product_id: "9")
 
 review10 = Review.create(comment: "Canine pop star!!", product_id: "#10")
 

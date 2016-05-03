@@ -41,7 +41,11 @@ img {
   margin: 2em 2em;
 }
 
-h3.review_title{
+.images {
+  margin: auto 33em;
+}
+
+.review_title{
   position: center;
   padding: 0.7em;
   background-color: #f2f2f2;
@@ -52,22 +56,37 @@ h3.review_title{
   border-width: thick;
   border-style: solid;
   border-color: #f2f2f2;
-  border-radius: 3em;
+  border-radius: 2em;
   flex-grow: 6;
   margin: 2em 2em;
+  font-stretch: expanded;
+  justify-content: center;
+  font-family: lobster;
+  font-size: 2.5em;
 }
-p.review{
+
+.review{
   position: center;
   padding: 2em;
   background-color: #f2f2f2;
   box-shadow: 0px 0px 0px 8px;
   box-sizing: border-box;
-  width: 50em;
+  width: 30em;
   height: 10em;
   border-width: thick;
   border-style: solid;
   border-color: #f2f2f2;
-  border-radius: 3em;
+  border-radius: 2em;
   flex-grow: 6;
-  margin: 2em 2em;
+  margin: 2em 17.75em;
+  font-size: 1.5em;
+
+}
+
+.review_title {
+  font-family: lobster;
+}
+
+.actions {
+  font-family: lobster;
 }
