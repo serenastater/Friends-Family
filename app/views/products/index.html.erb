@@ -17,11 +17,11 @@
   <tbody>
     <% @products.each do |product| %>
 
-      <tr><img src="<%= product.image %>">
+      <tr><a href="<%=product.id%>"><img src="<%= product.image %>"/></a>
+        <!-- <tr><%= link_to 'Reviews', product %></tr> -->
         <!-- <td><%= product.name %></td>
         <td><%= product.description %></td>
-        <td>$<%= product.formatted_price %></td>
-        <td><%= link_to 'Show', product %></td> -->
+        <td>$<%= product.formatted_price %></td> -->
 
       </tr>
     <% end %>
