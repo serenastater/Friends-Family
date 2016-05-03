@@ -13,15 +13,15 @@
     <div class= "container">
       <nav>
         <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to "Sign up", 'signup' %></a></li>
           <li><%= link_to "Home", 'login' %></li>
-          <li><%= link_to "Cart", '#' %></li>
+          <li><%= link_to "Sign up", 'signup' %></a></li>
+          <!-- <li><%= link_to "Cart", '#' %></li> -->
           <li><%= link_to "Log out", logout_path, method: "delete" %></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-left">
           <% if current_user %>
-          <li><%= current_user.email %></li>
+          <li>Hello, <%= current_user.first_name %> <%= current_user.last_name %></li>
           <ul class="nav navbar-nav navbar-right">
           <!-- <li><%= link_to "Log out", logout_path, method: "delete" %></li> -->
 
