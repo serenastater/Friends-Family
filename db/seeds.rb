@@ -39,3 +39,55 @@ rooster = Product.create(name: "Ruby Red Boots", description: "Watch out for the
 snake = Product.create(name: "Party Hat", description: "Party like it's 1999", image: "http://i.imgur.com/QVJ9RIU.jpg", price_in_cents: "1099")
 
 racoon = Product.create(name: "Like a Sir", description: "Dress your racoon like a Sir!", image: "http://i.imgur.com/wm8NL2b.jpg", price_in_cents: "1999")
+
+review1 = Review.create(comment: "Hilarious! Amazing lobster costume!", product_id: "1")
+
+review2 = Review.create(comment: "I love this sushi costume!", product_id: "2")
+
+review3 = Review.create(comment: "Beautiful!!", product_id: "3")
+
+review4 = Review.create(comment: "I wish my overalls were this awesome!", product_id: "4")
+
+review5 = Review.create(comment: "Worthy if being a Disney princess!", product_id: "5")
+
+review6 = Review.create(comment: "SuperHamster!", product_id: "6")
+
+review7 = Review.create(comment: "Ready for the winter!", product_id: "7")
+
+review8 = Review.create(comment: "Best pijama ever!", product_id: "8")
+
+review9 = Review.create(comment: "Who said unicorns don't exist!?", product_id: "9")
+
+review10 = Review.create(comment: "Canine pop star!!", product_id: "#10")
+
+review11 = Review.create(comment: "Awesome boots!", product_id: "11")
+
+review12 = Review.create(comment: "Birthday hat!", product_id: "12")
+
+review13 = Review.create(comment: "Looks like a boss!", product_id: "13")
+
+review14 = Review.create(comment: "Best costume ever!", product_id: "1")
+
+review15 = Review.create(comment: "Best costume ever!", product_id: "2")
+
+review16 = Review.create(comment: "Best costume ever!", product_id: "3")
+
+review17 = Review.create(comment: "Best costume ever!", product_id: "4")
+
+review18 = Review.create(comment: "Best costume ever!", product_id: "5")
+
+review19 = Review.create(comment: "Best costume ever!", product_id: "6")
+
+review20 = Review.create(comment: "Best costume ever!", product_id: "7")
+
+review21 = Review.create(comment: "Best costume ever!", product_id: "8")
+
+review22 = Review.create(comment: "Best costume ever!", product_id: "9")
+
+review23 = Review.create(comment: "Best costume ever!", product_id: "#10")
+
+review24 = Review.create(comment: "Best costume ever!", product_id: "11")
+
+review25 = Review.create(comment: "Best costume ever!", product_id: "12")
+
+review26 = Review.create(comment: "Best costume ever!", product_id: "13")
