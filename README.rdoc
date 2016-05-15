@@ -3,3 +3,5 @@ First Rails App!
 Created for & presented at friends & family day on May 4, 2016
 
 First foray into user authentication
+
+Created after week 4 of Wyncode
