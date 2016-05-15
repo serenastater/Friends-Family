@@ -1,2 +1,5 @@
-######First Rails App######
+First Rails App!
+
 Created for & presented at friends & family day on May 4, 2016
+
+First foray into user authentication
